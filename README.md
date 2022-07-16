@@ -29,14 +29,14 @@ In the priority scheduling algorithm, there is a classification of processes acc
 * In this type of scheduling algorithm, if a newer process arrives, that is having a higher priority than the currently running process, then the currently running process is preempted.
 
 # Advantages of priority scheduling
-• Easy to use scheduling method
-• Processes are executed on the basis of priority so high priority does not need to wait for long which saves time
-• This method provides a good mechanism where the relative important of each process may be precisely defined.
-• Suitable for applications with fluctuating time and resource requirements.
+* Easy to use scheduling method
+* Processes are executed on the basis of priority so high priority does not need to wait for long which saves time
+* This method provides a good mechanism where the relative important of each process may be precisely defined.
+* Suitable for applications with fluctuating time and resource requirements.
 
 # Disadvantages of priority scheduling
-• If the system eventually crashes, all low priority processes get lost.
-• If high priority processes take lots of CPU time, then the lower priority processes may starve and will be postponed for an indefinite time.
-• This scheduling algorithm may leave some low priority processes waiting indefinitely.
-• A process will be blocked when it is ready to run but has to wait for the CPU because some other process is running currently.
-• If a new higher priority process keeps on coming in the ready queue, then the process which is in the waiting state may need to wait for a long duration of time.
+* If the system eventually crashes, all low priority processes get lost.
+* If high priority processes take lots of CPU time, then the lower priority processes may starve and will be postponed for an indefinite time.
+* This scheduling algorithm may leave some low priority processes waiting indefinitely.
+* A process will be blocked when it is ready to run but has to wait for the CPU because some other process is running currently.
+* If a new higher priority process keeps on coming in the ready queue, then the process which is in the waiting state may need to wait for a long duration of time.
