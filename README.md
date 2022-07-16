@@ -40,3 +40,15 @@ In the priority scheduling algorithm, there is a classification of processes acc
 * This scheduling algorithm may leave some low priority processes waiting indefinitely.
 * A process will be blocked when it is ready to run but has to wait for the CPU because some other process is running currently.
 * If a new higher priority process keeps on coming in the ready queue, then the process which is in the waiting state may need to wait for a long duration of time.
+
+Implementation:
+1. First, we will input the processes with their burst time and priority. (𝑃𝑛 arrives earlier than 𝑃𝑛+1)
+2. First process will schedule, which have the lowest arrival time, if two or more processes will have lowest arrival time, then whoever has higher priority will schedule first.
+3. Now further processes will be schedule according to the arrival time and priority of the process.
+4. Once all the processes have been arrived, we can schedule them based on their priority.
+
+Implementation of the Random Function:
+1. First, we will take the Random range.
+2. A list will get created in this range.
+3. Next, we will shuffle this list and choose an index and output the random number.
+
