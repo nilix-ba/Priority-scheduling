@@ -47,8 +47,3 @@ In the priority scheduling algorithm, there is a classification of processes acc
 3. Now further processes will be schedule according to the arrival time and priority of the process.
 4. Once all the processes have been arrived, we can schedule them based on their priority.
 
-Implementation of the Random Function:
-1. First, we will take the Random range.
-2. A list will get created in this range.
-3. Next, we will shuffle this list and choose an index and output the random number.
-
