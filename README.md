@@ -41,7 +41,7 @@ In the priority scheduling algorithm, there is a classification of processes acc
 * A process will be blocked when it is ready to run but has to wait for the CPU because some other process is running currently.
 * If a new higher priority process keeps on coming in the ready queue, then the process which is in the waiting state may need to wait for a long duration of time.
 
-Implementation:
+# Implementation:
 1. First, we will input the processes with their burst time and priority. (𝑃𝑛 arrives earlier than 𝑃𝑛+1)
 2. First process will schedule, which have the lowest arrival time, if two or more processes will have lowest arrival time, then whoever has higher priority will schedule first.
 3. Now further processes will be schedule according to the arrival time and priority of the process.
