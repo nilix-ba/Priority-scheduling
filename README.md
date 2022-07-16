@@ -21,12 +21,12 @@ Scheduling stands for deciding which jobs run whenever there are more than runna
 In the priority scheduling algorithm, there is a classification of processes according to some system criteria depending on the processed type. The priority of the process is made by a group of measures and any process inserting the ready queue provides its importance as a priority. Only the priority number determines the allocating decision to the CPU for a process in a way that the high-value priority of the process will arrive at the CPU first or next. Two types of versions exist for this algorithm which is preemptive and non-preemptive. In the preemptive Type of this algorithm, the lowest priority process may be suffering from starvation in case of a process with big priority keep to coming to the ready queue.
 
 # Characteristics of Priority Scheduling
-• A CPU algorithm that schedules processes based on priority.
-• It used in Operating systems for performing batch processes.
-• If two jobs having the same priority are READY, it works on a FIRST COME, FIRST SERVED basis.
-• In priority scheduling, a number is assigned to each process that indicates its priority level.
-• Lower the number, higher is the priority.
-• In this type of scheduling algorithm, if a newer process arrives, that is having a higher priority than the currently running process, then the currently running process is preempted.
+* A CPU algorithm that schedules processes based on priority.
+* It used in Operating systems for performing batch processes.
+* If two jobs having the same priority are READY, it works on a FIRST COME, FIRST SERVED basis.
+* In priority scheduling, a number is assigned to each process that indicates its priority level.
+* Lower the number, higher is the priority.
+* In this type of scheduling algorithm, if a newer process arrives, that is having a higher priority than the currently running process, then the currently running process is preempted.
 
 # Advantages of priority scheduling
 • Easy to use scheduling method
